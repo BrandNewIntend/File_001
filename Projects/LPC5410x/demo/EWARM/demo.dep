@@ -1,0 +1,2334 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>750100216</fileChecksum>
+  <configuration>
+    <name>MiCOKit-LPC5410x</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\uart_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\utick_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wwdt_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spim_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\syscon_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sysinit_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_rng.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\timer_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sct_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sct_pwm_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_common_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\startup_lpc54100_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_watchdog.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spis_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_mcu_powersave.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_bus_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_pwm.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_nano_second.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\stopwatch_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\printbuf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\config_server.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_firmware.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\debug.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sha224-256.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\platform_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hello_world.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\json_tokener.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\HTTPUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\json_util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\SecurityUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\SHAUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\StringUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\URLUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hkdf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\RingBufferUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\curve25519-donna.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\arraylist.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hmac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\json_object.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\linkhash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\CheckSumUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_config.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\SocketUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sha384-512.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\usha.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\TimeUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sha1.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\AESUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\airkiss_discovery.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\TLVUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\tftp_ota.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\button.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\temp_hum_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\apds9930.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bma2x2.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bma2x2_user.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_para_storage.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_discovery.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hardfault.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_easylink_wac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\AsciiLib.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_power_daemon.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_notification.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\crt0_EWARM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_mdns.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_easylink.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_misc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\oled.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_monitor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hsb2rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\micokit_ext.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\micokit_ext_mfg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\motion_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_easylink_delegate.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_factory_test.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\MiCOKit_STmems.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\dc_motor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\config_server_menu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\i2cs_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\iap.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\fpu_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\iocon_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_bus_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bme280.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\chip_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\dma_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\infrared_reflective.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hts221.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\DHT11.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmg160_user.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmm050_user.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\lps25hb.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_flash_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\lsm9ds1_acc_gyr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bme280_user.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\lsm9ds1_mag.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\Retarget.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\uvis25.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\clock_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmm050.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\crc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmg160.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\light_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\adc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\fifo_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\gpio_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\gpiogroup_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\i2c_common_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\i2cm_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spim_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\uart_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\rtc_ut.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_mcu_powersave.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\rtc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_rng.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\pinint_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\syscon_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wwdt_5410x.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\pll_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\ring_buffer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\stopwatch_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sct_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\timer_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\utick_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_nano_second.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\ritimer_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sct_pwm_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_common_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spis_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sysinit_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\power_control.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_pwm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\gpio_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\Retarget.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\i2c_common_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\i2cs_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\iap.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\power_control.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\dma_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\gpiogroup_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\fifo_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\ring_buffer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\clock_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\fpu_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\rtc_5410x.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\iocon_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\i2cm_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\chip_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\ritimer_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\pll_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\crc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_flash_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\pinint_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\adc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\rtc_ut.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\Curve25519\curve25519-donna.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sys_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MICODriverNanoSecond.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cmsis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_lib_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_rtos.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\PlatformLogging.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cpuctrl_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\platform_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\Output\MiCOKit-LPC5410x\demo.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\Output\MiCOKit-LPC5410x\demo.bin</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\demo.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\lpc_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hello_world.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\debug.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\AESUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\json_util.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\arraylist.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\linkhash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\json_tokener.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\HTTPUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\SocketUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\SHAUtils.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\printbuf.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\CheckSumUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\json_object.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\RingBufferUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\SecurityUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\config_server_menu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\airkiss_discovery.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_factory_test.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_discovery.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_mdns.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_easylink_wac.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\StringUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\config_server.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_misc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_para_storage.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\crt0_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\wlan_firmware.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hardfault.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\tftp_ota.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\usha.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_notification.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hkdf.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\URLUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sha384-512.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_easylink_delegate.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\TimeUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_power_daemon.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_config.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\curve25519-donna.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hmac.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\TLVUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sha1.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\sha224-256.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\mico_system_monitor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\system_easylink.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\light_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\lps25hb.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\lsm9ds1_acc_gyr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bma2x2.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\oled.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bme280.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\lsm9ds1_mag.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\helloworld\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmg160_user.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\uvis25.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\spi_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\MiCOKit_STmems.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hsb2rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\temp_hum_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\apds9930.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\micokit_ext.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\micokit_ext_mfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bma2x2_user.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\motion_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\infrared_reflective.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmm050.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\dc_motor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\button.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\AsciiLib.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bme280_user.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\DHT11.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmg160.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\bmm050_user.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\demo\MiCOKit-LPC5410x\obj_EWARM\hts221.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_wlan.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverWdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverPwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverSpi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverI2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MICO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoAES.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverMFiAuth.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverUart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverGpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\helloworld\hello_world.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverAdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_inttypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\bits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object_private.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\SecurityUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\SHAUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\AESUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\HTTPUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_notification.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink_delegate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_para_storage.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server_menu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mdns\mico_mdns.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\command_console\mico_cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mdns\system_discovery.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_monitor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_power_daemon.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\SocketUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\sha1.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\TimeUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\hkdf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\TLVUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\core\RF driver\wlan_firmware.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\Curve25519\curve25519-donna.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\sha224-256.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\sha384-512.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\URLUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\usha.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\core\mico_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\hmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\airkiss_discovery\airkiss_discovery.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\apds9930\apds9930.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_STmems\MiCOKit_STmems.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\apds9930\apds9930.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMA2x2\bma2x2.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink_wac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\keypad\gpio_button\button.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\display\VGM128064\oled.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\tftp_ota\tftp_ota.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system_misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system_factory_test.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\display\VGM128064\AsciiLib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\display\VGM128064\oled.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\keypad\gpio_button\button.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\infrared_adc\infrared_reflective.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\light_adc\light_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\LSM9DS1\lsm9ds1_acc_gyr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\LSM9DS1\lsm9ds1_mag.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\UVIS25\uvis25.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\HTS221\hts221.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\light_adc\light_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\LPS25HB\lps25hb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\infrared_adc\infrared_reflective.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\DHT11\DHT11.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMG160\bmg160_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMG160\bmg160.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BME280\bme280_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMM050\bmm050_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMM050\bmm050.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BME280\bme280.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMA2x2\bma2x2_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_nano_second.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_powersave.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_ut.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sysinit_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_control.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\stopwatch_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\EWARM\startup_lpc54100_EWARM.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_bus_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocalelist.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\mrt_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\platform_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\inmux_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rom_pwr_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cmsis_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\romapi_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pmu_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\mailbox_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverFlash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_security.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\wlan_platform_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\SecurityUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\AESUtils.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\platform_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Build\demo\Output\MiCOKit-LPC5410x\demo.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 488 224 139 198 199 496 326 37 192 172 195 486 196 279 309 480 495 498 203 392 528 187 405 202 472 479 482 499 217 505 401 301 205 375 487 185 380 302 197 485 475 492 491 473 474 477 483 503 502 504 500 497 386 300 313 311 341 494 304 527 204 490 478 484 231 434 493 489 471 476 201 481 188 508 206 509 193 513 194 510 207 517 183 514 200 511 186 512 515 506 519 518 507 521 516 190 381 402 526 522 307 305 312 189 348 340 321 329 308 391 390 378 376 303 277 184 306 315 317 318 520 191 327 323 325 336 501</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\helloworld\hello_world.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200 187 198 196 193 188 201 202 318 434 207 203 199 341 189 197 185 192 204 184 315 191 205 206 194 183 186 190 217 37 309 300 302 303 277 279 224 231 172 139 195 405 380 306 317 520 304 508 509 513 510 517 514 511 512 515 506 519 518 507 521 516 326 522 496 481 494 485 490 478 484 487 493 489 471 476 307 313 305 301 312 311 480 475 486 492 472 491 495 473 479 474 488 477 482 483 498 503 499 502 504 500 505 497 348 340 321 329 308 327 323 325 336 501</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192 204 139 532 172 195 187 325 321 405 494 224 197 329 533 487 185 485 279 501 330 523 326 323 336 319 341 490 478 484 493 489 471 476 231 529 202 196</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341 329 323 187 485 279 172 139 195 325 487 185 192 204 494 330 231 532 202 224 501 336 340 319 331 533 490 478 484 529 196 197 493 489 471 476 405</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204 187 326 195 185 192 231 494 325 485 330 490 478 484</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 490 192 187 195 487 478 224 494 204 485 484 330 529 185 231 323</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187 326 478 192 523 329 336 195 524 341 204 485 490 532 224 501 494 197 323 319 321 487 484 231 172 139 405 279 330 185 493 489 471 476</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\SecurityUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 336 204 231 195 326 192 187 224 494 529 323 487 185 330 485 490 478 484</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204 501 187 478 197 195 202 485 490 192 196 494 529 523 340 487 484 231 279 224 172 139 405 185 493 489 471 476</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\SHAUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\AESUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 221</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 530 172 195 139 302 204 231 309 380 531 202 310 494 187 192 405 279 196 224 197 185 485 490 478 484 487 493 489 471 476 201 481</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192 187 487 471 494 185 478 493 195 490 485 202 279 196 224 197 484 489 476 204 525 231 172 139 405</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\HTTPUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_notification.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink_delegate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_para_storage.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 246</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server_menu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mdns\mico_mdns.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 241</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 256</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\command_console\mico_cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mdns\system_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_monitor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_power_daemon.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 244</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\SocketUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\sha1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\TimeUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 259</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\hkdf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 253</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\TLVUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\core\RF driver\wlan_firmware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\security\Curve25519\curve25519-donna.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\sha224-256.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\sha384-512.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 257</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\URLUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 255</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\usha.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 251</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\core\mico_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 261</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\security\SHAUtils\hmac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 263</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\airkiss_discovery\airkiss_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 238</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\apds9930\apds9930.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 285</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 292</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_STmems\MiCOKit_STmems.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 282</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 284</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMA2x2\bma2x2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 286</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink_wac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 242</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\tftp_ota\tftp_ota.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 250</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\system_misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 247</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\system_factory_test.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 239</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\display\VGM128064\AsciiLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 294</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\display\VGM128064\oled.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 273</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\keypad\gpio_button\button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\LSM9DS1\lsm9ds1_acc_gyr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\LSM9DS1\lsm9ds1_mag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 276</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\UVIS25\uvis25.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\HTS221\hts221.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\light_adc\light_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 269</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\LPS25HB\lps25hb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 270</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\infrared_adc\infrared_reflective.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\DHT11\DHT11.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 296</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMG160\bmg160_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMG160\bmg160.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 297</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BME280\bme280_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 295</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMM050\bmm050_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 298</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMM050\bmm050.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BME280\bme280.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\BMA2x2\bma2x2_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 288</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_nano_second.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_powersave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_ut.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sysinit_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rng.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_control.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\stopwatch_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\EWARM\startup_lpc54100_EWARM.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_bus_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
